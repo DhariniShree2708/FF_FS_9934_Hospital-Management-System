@@ -10,22 +10,29 @@
 <h4>Your Login is Successful!!</h4>
 <div align="center">
 			<h1>Hospital Management System!!</h1>
-<h4>Patient Details : <a href="/HospitalManagement/patientdetails/addpatientdetails">Add Patient Details</a></h4>
-			
-		<h4>Physician Details</h4>
-		<h2><a href="/HospitalManagement/physiciandetails/addphysiciandetails">Add Physician Details</a></h2>
-		
-		<h2>Diagnostic Details</h2>
-		<h2><a href="/HospitalManagement/diagnosticdetails/adddiagnosticdetails">Add Diagnostic Details</a></h2>
-		
-		<h2>Patient History</h2>
-		<h2>
-			<a href="/HospitalManagement/patientdetails/patienthistory">View Patient Details</a>
-			</h2>
-			<h2>Physician Search</h2>
-		<h2>
-			<a href="/HospitalManagement/physiciandetails/physiciansearch">View Physician Details</a>
-			</h2>
+
+			<table border=4>
+				<tr>
+					<td>Patient Details :</td>
+					<td><a href="/HospitalManagement/patientdetails/addpatientdetails">Add Patient Details</a></td>
+				</tr>
+				<tr>
+					<td>Physician Details</td>
+					<td><a href="/HospitalManagement/physiciandetails/addphysiciandetails">Add Physician Details</a></td>
+				</tr>
+				<tr>
+					<td>Diagnostic Details</td>
+					<td><a href="/HospitalManagement/diagnosticdetails/adddiagnosticdetails">Add Diagnostic Details</a></td>
+				</tr>
+				<tr>
+					<td>Patient History</td>
+					<td><a href="/HospitalManagement/patientdetails/patienthistory">View Patient Details</a></td>
+				</tr>
+				<tr>
+					<td>Physician Search</td>
+					<td><a href="/HospitalManagement/physiciandetails/physiciansearch">View Physician Details</a></td>
+				</tr>
+				</table>
 			</div>
 </body>
 </html>
